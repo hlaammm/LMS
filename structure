@@ -1,0 +1,41 @@
+library-management-system
+├── pom.xml (if you're using Maven) or build.gradle (if you're using Gradle)
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── library
+│   │   │           ├── LibraryApplication.java
+│   │   │           ├── controller
+│   │   │           │   ├── BookController.java
+│   │   │           │   ├── PatronController.java
+│   │   │           │   └── BorrowingController.java
+│   │   │           ├── entity
+│   │   │           │   ├── Book.java
+│   │   │           │   ├── Patron.java
+│   │   │           │   └── BorrowingRecord.java
+│   │   │           ├── repository
+│   │   │           │   ├── BookRepository.java
+│   │   │           │   ├── PatronRepository.java
+│   │   │           │   └── BorrowingRecordRepository.java
+│   │   │           ├── service
+│   │   │           │   ├── BookService.java
+│   │   │           │   ├── PatronService.java
+│   │   │           │   └── BorrowingService.java
+│   │   │           └── util
+│   │   │               └── LibraryConstants.java
+│   │   └── resources
+│   │       ├── application.properties
+│   │       └── static
+│   └── test
+│       ├── java
+│       │   └── com
+│       │       └── library
+│       │           ├── LibraryApplicationTests.java
+│       │           └── controller
+│       │               ├── BookControllerTest.java
+│       │               ├── PatronControllerTest.java
+│       │               └── BorrowingControllerTest.java
+│       └── resources
+│           └── test.properties
+└── README.md
